@@ -1,20 +1,20 @@
 ```text
-           /\                                       croxln ────────────────────────────────────────────────────────
-          /  \          /\                          . Name: .............................. -Serhat
-         / /\ \        /  \                         . Role: .............................. High-Performance Minecraft Core Architect
-        / /  \ \      / /\ \                        . Focus: ............................. Large-Scale Server Engines & Territory Warfare
-       / /    \ \    / /  \ \                       . Environment: ....................... Java 21 LTS, PaperMC / Folia, Linux
-      / /  /\  \ \  / /    \ \                      . Build Tool: ........................ Apache Maven, Gradle
-     / /  /  \  \ \/ /  /\  \ \                     ─ Architecture & Core Stack ───────────────────────────────────
-    / /  /    \  \  /  /  \  \ \                    . Storage & Pool: .................... SQLite, MySQL, HikariCP Connection Pool
-    \ \  \    /  /  \  \  /  / /                    . Spatial Computing: ................. O(1) Chunk Spatial Index, Async Schedulers
-     \ \  \  /  / /\ \  \/  / /                     . Protocols & PDC: ................... PersistentDataContainer, NBT, Packets
-      \ \  \/  / /  \ \    / /                      . UI/UX Standard: .................... Adventure MiniMessage, High-Tick GUIs
-       \ \    / /    \ \  / /                       ─ SrProjects Suite (Closed-Source Showcase) ───────────────────
-        \ \  / /      \ \/ /                        . SrTownyFactory: .................... RoK Territorial Factories & KotH Warfare
-         \ \/ /        \  /                         . SrTowny: ........................... Advanced Towny Core & Siege Engine Fork
-          \  /          \/                          . SrOrder: ........................... Multi-Currency Order & Exchange Platform
-           \/                                       . Status: ............................ 🟢 Active Production & Full-Scale Expansion
+       /\                     croxln ────────────────────────────────────
+      /  \          /\        . Name: ...... -Serhat
+     / /\ \        /  \       . Role: ...... High-Perf MC Core Architect
+    / /  \ \      / /\ \      . Focus: ..... Server Engines & Warfare
+   / /    \ \    / /  \ \     . Environment: Java 21 LTS, PaperMC, Folia
+  / /  /\  \ \  / /    \ \    . Build Tool:  Apache Maven, Gradle
+ / /  /  \  \ \/ /  /\  \ \   ─ Architecture & Core Stack ───────────────
+/ /  /    \  \  /  /  \  \ \  . Storage: ... SQLite, MySQL, HikariCP
+\ \  \    /  /  \  \  /  / /  . Spatial: ... O(1) Chunk Index, Async Tasks
+ \ \  \  /  / /\ \  \/  / /   . Protocols: . PDC, NBT, Packet Injection
+  \ \  \/  / /  \ \    / /    . UI/UX: ..... Adventure MiniMessage, GUIs
+   \ \    / /    \ \  / /     ─ SrProjects Suite (Closed-Source) ────────
+    \ \  / /      \ \/ /      . SrFactory: . RoK Factories & KotH Warfare
+     \ \/ /        \  /       . SrTowny: ... Core Towny & Siege Fork
+      \  /          \/        . SrOrder: ... Multi-Currency Order & Escrow
+       \/                     . Status: .... 🟢 Active Production Core
 ```
 
 <div align="center">
