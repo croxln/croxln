@@ -1,20 +1,20 @@
 ```text
-       /\                            croxln ──────────────────────────────────────────
-      /  \          /\               . Name: ........ -Serhat
-     / /\ \        /  \              . Role: ........ High-Performance MC Core Architect
-    / /  \ \      / /\ \             . Focus: ....... Server Engines & Warfare Systems
-   / /    \ \    / /  \ \            . Environment: . Java 21 LTS, PaperMC, Folia, Linux
-  / /  /\  \ \  / /    \ \           . Build Tool: .. Apache Maven, Gradle
- / /  /  \  \ \/ /  /\  \ \          ─ Architecture & Core Stack ─────────────────────
-/ /  /    \  \  /  /  \  \ \         . Storage: ..... SQLite, MySQL, HikariCP Pool
-\ \  \    /  /  \  \  /  / /         . Spatial: ..... O(1) Chunk Index, Async Tasks
- \ \  \  /  / /\ \  \/  / /          . Protocols: ... PDC, NBT, Packet Injection
-  \ \  \/  / /  \ \    / /           . UI/UX: ....... Adventure MiniMessage, GUIs
-   \ \    / /    \ \  / /            ─ SrProjects Suite (Closed-Source Showcase) ─────
-    \ \  / /      \ \/ /             . SrFactory: ... RoK Factories & KotH Warfare
-     \ \/ /        \  /              . SrTowny: ..... Core Towny & Siege Engine Fork
-      \  /          \/               . SrOrder: ..... Multi-Currency Order & Escrow
-       \/                            . Status: ...... 🟢 Active Production Core
+       /\                                         croxln ──────────────────────────────────────
+      /  \          /\                            . Name: ........ -Serhat
+     / /\ \        /  \                           . Role: ........ High-Performance MC Architect
+    / /  \ \      / /\ \                          . Focus: ....... Server Engines & Warfare Systems
+   / /    \ \    / /  \ \                         . Environment: . Java 21 LTS, PaperMC, Folia
+  / /  /\  \ \  / /    \ \                        . Build Tool: .. Apache Maven, Gradle
+ / /  /  \  \ \/ /  /\  \ \                       ─ Architecture & Core Stack ─────────────────
+/ /  /    \  \  /  /  \  \ \                      . Storage: ..... SQLite, MySQL, HikariCP Pool
+\ \  \    /  /  \  \  /  / /                      . Spatial: ..... O(1) Chunk Index, Async Tasks
+ \ \  \  /  / /\ \  \/  / /                       . Protocols: ... PDC, NBT, Packet Injection
+  \ \  \/  / /  \ \    / /                        . UI/UX: ....... Adventure MiniMessage, GUIs
+   \ \    / /    \ \  / /                         ─ SrProjects Suite (Closed-Source Showcase) ─
+    \ \  / /      \ \/ /                          . SrFactory: ... RoK Factories & KotH Warfare
+     \ \/ /        \  /                           . SrTowny: ..... Core Towny & Siege Engine Fork
+      \  /          \/                            . SrOrder: ..... Multi-Currency Order & Escrow
+       \/                                         . Status: ...... 🟢 Active Production Core
 ```
 
 <div align="center">
