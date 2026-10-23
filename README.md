@@ -38,6 +38,8 @@
 
 <div align="center">
 
+<img src="https://komarev.com/ghpvc/?username=croxln&label=PROFILE+VIEWS&color=38bdf8&style=for-the-badge" alt="Profile Views" />
+
 ### 📊 Real-Time GitHub Analytics
 
 <p align="center">
