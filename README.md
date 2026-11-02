@@ -3,7 +3,7 @@
       /  \          /\                                  . Name: ........ -Serhat
      / /\ \        /  \                                 . Role: ........ High-Performance MC Architect
     / /  \ \      / /\ \                                . Focus: ....... Server Engines & Warfare Systems
-   / /    \ \    / /  \ \                               . Environment: . Java 21 LTS, PaperMC, Folia
+   / /    \ \    / /  \ \                               . Environment: . Java 21 LTS, PaperMC, Leaf
   / /  /\  \ \  / /    \ \                              . Build Tool: .. Apache Maven, Gradle
  / /  /  \  \ \/ /  /\  \ \                             ─ Architecture & Core Stack ─────────────────
 / /  /    \  \  /  /  \  \ \                            . Storage: ..... SQLite, MySQL, HikariCP Pool
@@ -23,7 +23,7 @@
 
 [![Java 21](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![PaperMC](https://img.shields.io/badge/PaperMC-1.21.x-1F8CEB?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
-[![Folia](https://img.shields.io/badge/Folia-Async_Threaded-4ADE80?style=for-the-badge&logo=speedtest&logoColor=white)](https://papermc.io/software/folia)
+[![Leaf](https://img.shields.io/badge/Leaf-Performance_Core-22C55E?style=for-the-badge&logo=leaf&logoColor=white)](https://github.com/Winds-Studio/Leaf)
 [![Adventure](https://img.shields.io/badge/Adventure-MiniMessage-C084FC?style=for-the-badge&logo=gameloft&logoColor=white)](https://docs.advntr.dev/)
 [![HikariCP](https://img.shields.io/badge/HikariCP-Fast_Pool-38BDF8?style=for-the-badge&logo=cachet&logoColor=white)](https://github.com/brettwooldridge/HikariCP)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org/)
@@ -65,7 +65,7 @@
 | **[SrOrder](https://github.com/croxln/SrOrder)** | Enterprise-grade player order & market exchange platform | Multi-economy compatibility, async escrow transactions, HikariCP indexed data stores | `🟢 Active` |
 | **SrGunlukOdul** | Streak & seasonal progression daily rewards | Time-zone normalized cooldown calculations, anti-exploit IP/UUID verification | `🟢 Production` |
 | **SrKillEffects** | Cosmetic elimination particles, sounds & animations | Non-blocking async packet dispatch, visual theme customization | `🟢 Production` |
-| **SrUnlimitedNametags** | Async high-tick scoreboard & nametag teams | Zero-flicker team packet injection, Folia region compliance | `🟢 Production` |
+| **SrUnlimitedNametags** | Async high-tick scoreboard & nametag teams | Zero-flicker team packet injection, async packet compliance | `🟢 Production` |
 | **SrRTP** | Biome-optimized async random teleportation | Async chunk pre-loading, liquid/danger safety filtering, zero main-thread lag | `🟢 Production` |
 
 <br>
