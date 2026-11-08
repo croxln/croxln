@@ -14,7 +14,7 @@
 
     <!-- Avatar Yuvarlatma Maskesi -->
     <clipPath id="avatar-clip">
-      <rect x="50" y="145" width="165" height="195" rx="14" />
+      <rect x="50" y="138" width="165" height="215" rx="14" />
     </clipPath>
   </defs>
 
@@ -45,63 +45,66 @@
   <text x="765" y="28" text-anchor="end" class="mono term-title">github.com/croxln</text>
 
   <!-- 1. KOMUT: neofetch -->
-  <text x="50" y="95" class="mono prompt-user">root@croxln</text>
-  <text x="145" y="95" class="mono prompt-tilde"> ~ </text>
-  <text x="170" y="95" class="mono prompt-sym"># </text>
-  <text x="190" y="95" class="mono prompt-cmd">neofetch</text>
+  <text x="50" y="92" class="mono prompt-user">root@croxln</text>
+  <text x="145" y="92" class="mono prompt-tilde"> ~ </text>
+  <text x="170" y="92" class="mono prompt-sym"># </text>
+  <text x="190" y="92" class="mono prompt-cmd">neofetch</text>
 
   <!-- Avatar Kutusu -->
-  <rect x="49" y="144" width="167" height="197" rx="15" fill="none" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1.5" />
-  <image href="https://github.com/croxln.png" x="50" y="145" width="165" height="195" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar-clip)" />
+  <rect x="49" y="137" width="167" height="217" rx="15" fill="none" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1.5" />
+  <image href="https://github.com/croxln.png" x="50" y="138" width="165" height="215" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar-clip)" />
 
-  <!-- Neofetch Bilgileri -->
-  <g transform="translate(245, 142)">
-    <text x="0" y="18" class="mono prompt-user" font-size="16">root@croxln</text>
-    <line x1="0" y1="26" x2="490" y2="26" stroke="#4c0519" stroke-width="1"/>
+  <!-- Neofetch Bilgileri (croxln Özgün README Mimarisi) -->
+  <g transform="translate(245, 136)">
+    <text x="0" y="16" class="mono prompt-user" font-size="16">root@croxln</text>
+    <line x1="0" y1="24" x2="490" y2="24" stroke="#4c0519" stroke-width="1"/>
 
     <!-- Satırlar -->
-    <text x="0" y="50" class="mono lbl">İsim</text>
-    <text x="100" y="50" class="mono val">Serhat Görgeç</text>
+    <text x="0" y="47" class="mono lbl">İsim</text>
+    <text x="95" y="47" class="mono val">Serhat Görgeç</text>
 
-    <text x="0" y="73" class="mono lbl">Rol</text>
-    <text x="100" y="73" class="mono val">High-Performance MC Architect <tspan class="val-dim">•</tspan> Sistem Mimarı</text>
+    <text x="0" y="69" class="mono lbl">Rol</text>
+    <text x="95" y="69" class="mono val">High-Performance MC Architect</text>
 
-    <text x="0" y="96" class="mono lbl">Konum</text>
-    <text x="100" y="96" class="mono val">İstanbul, Türkiye</text>
+    <text x="0" y="91" class="mono lbl">Odak</text>
+    <text x="95" y="91" class="mono val">Server Engines <tspan class="val-dim">&amp;</tspan> Warfare Systems</text>
 
-    <text x="0" y="119" class="mono lbl">Uzmanlık</text>
-    <text x="100" y="119" class="mono val">Sunucu Altyapısı <tspan class="val-dim">•</tspan> Savaş Sistemleri <tspan class="val-dim">•</tspan> Otomasyon</text>
+    <text x="0" y="113" class="mono lbl">Ortam</text>
+    <text x="95" y="113" class="mono val">Java 21 LTS <tspan class="val-dim">•</tspan> PaperMC <tspan class="val-dim">•</tspan> Leaf</text>
 
-    <text x="0" y="142" class="mono lbl">Stack</text>
-    <text x="100" y="142" class="mono val">Java 21 LTS <tspan class="val-dim">•</tspan> PaperMC <tspan class="val-dim">•</tspan> Leaf <tspan class="val-dim">•</tspan> Maven <tspan class="val-dim">•</tspan> SQLite <tspan class="val-dim">•</tspan> MySQL</text>
+    <text x="0" y="135" class="mono lbl">Build</text>
+    <text x="95" y="135" class="mono val">Apache Maven <tspan class="val-dim">•</tspan> Gradle</text>
 
-    <text x="0" y="165" class="mono lbl">Dil</text>
-    <text x="100" y="165" class="mono val">Türkçe <tspan class="val-dim">•</tspan> English</text>
+    <text x="0" y="157" class="mono lbl">Mimari</text>
+    <text x="95" y="157" class="mono val">O(1) Spatial Index <tspan class="val-dim">•</tspan> Async Tasks <tspan class="val-dim">•</tspan> Packet Injection</text>
 
-    <text x="0" y="188" class="mono lbl">Web</text>
-    <text x="100" y="188" class="mono val" fill="#f43f5e">github.com/croxln</text>
+    <text x="0" y="179" class="mono lbl">UI/UX</text>
+    <text x="95" y="179" class="mono val">Adventure MiniMessage <tspan class="val-dim">•</tspan> Custom GUIs</text>
+
+    <text x="0" y="201" class="mono lbl">Suit</text>
+    <text x="95" y="201" class="mono val">SrTowny <tspan class="val-dim">•</tspan> SrTownyFactory <tspan class="val-dim">•</tspan> SrOrder</text>
 
     <!-- Renk Paleti Blokları -->
-    <g transform="translate(0, 203)">
-      <rect x="0" y="0" width="28" height="14" rx="3" fill="#2a060c" />
-      <rect x="34" y="0" width="28" height="14" rx="3" fill="#4c0519" />
-      <rect x="68" y="0" width="28" height="14" rx="3" fill="#881337" />
-      <rect x="102" y="0" width="28" height="14" rx="3" fill="#be123c" />
-      <rect x="136" y="0" width="28" height="14" rx="3" fill="#f43f5e" />
-      <rect x="170" y="0" width="28" height="14" rx="3" fill="#ffe4e6" />
+    <g transform="translate(0, 218)">
+      <rect x="0" y="0" width="28" height="13" rx="3" fill="#2a060c" />
+      <rect x="34" y="0" width="28" height="13" rx="3" fill="#4c0519" />
+      <rect x="68" y="0" width="28" height="13" rx="3" fill="#881337" />
+      <rect x="102" y="0" width="28" height="13" rx="3" fill="#be123c" />
+      <rect x="136" y="0" width="28" height="13" rx="3" fill="#f43f5e" />
+      <rect x="170" y="0" width="28" height="13" rx="3" fill="#ffe4e6" />
     </g>
   </g>
 
-  <!-- 2. KOMUT: cat vizyon.txt -->
-  <g transform="translate(50, 420)">
+  <!-- 2. KOMUT: cat architecture.txt -->
+  <g transform="translate(50, 415)">
     <text x="0" y="0" class="mono prompt-user">root@croxln</text>
     <text x="95" y="0" class="mono prompt-tilde"> ~ </text>
     <text x="120" y="0" class="mono prompt-sym"># </text>
-    <text x="140" y="0" class="mono prompt-cmd">cat vizyon.txt</text>
+    <text x="140" y="0" class="mono prompt-cmd">cat architecture.txt</text>
 
-    <text x="0" y="28" class="mono val">Fikirden canlı ortama, uçtan uca yazılım geliştiriyorum.</text>
-    <text x="0" y="50" class="mono val">Sağlam temeller, temiz kod ve uzun ömürlü ürünler.</text>
-    <text x="0" y="72" class="mono val">Bir yapı ihtiyacı karşılamıyorsa yamamam; doğru temeller üzerine yeniden kurarım.</text>
+    <text x="0" y="28" class="mono val">Yüksek eşzamanlı Minecraft ağları için kurumsal sunucu motorları ve savaş sistemleri.</text>
+    <text x="0" y="50" class="mono val">Thread-safe mekanikler, O(1) spatial indexing ve asenkron paket enjeksiyonu.</text>
+    <text x="0" y="72" class="mono val">SrProjects: Kapalı kaynak mimari vitrini ve yüksek ölçekli üretim çekirdeği.</text>
   </g>
 
   <!-- 3. KOMUT: open https://github.com/croxln -->
@@ -111,7 +114,7 @@
     <text x="120" y="0" class="mono prompt-sym"># </text>
     <text x="140" y="0" class="mono prompt-cmd">open https://github.com/croxln</text>
 
-    <text x="0" y="26" class="mono val-dim">→ github.com/croxln açılıyor. Yeni projeler için bir mesaj uzağınızdayım.</text>
+    <text x="0" y="26" class="mono val-dim">→ github.com/croxln açılıyor. Sistem mimarileri ve dokümantasyon inceleniyor.</text>
   </g>
 
   <!-- Aktif Cursor -->
