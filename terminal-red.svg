@@ -1,0 +1,123 @@
+<svg width="800" height="660" viewBox="0 0 800 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Kırmızı/Crimson Arka Plan Gradyanı -->
+    <linearGradient id="bg-grad-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180709" />
+      <stop offset="45%" stop-color="#0e0405" />
+      <stop offset="100%" stop-color="#050202" />
+    </linearGradient>
+
+    <!-- CRT / Scanline Deseni -->
+    <pattern id="scanlines-red" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" opacity="0.38" />
+    </pattern>
+
+    <!-- Avatar Yuvarlatma Maskesi -->
+    <clipPath id="avatar-clip">
+      <rect x="50" y="145" width="165" height="185" rx="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Courier New', Courier, Consolas, monospace; }
+    .term-title { fill: #71717a; font-size: 13px; font-weight: 500; }
+    .prompt-user { fill: #f43f5e; font-size: 14px; font-weight: 700; }
+    .prompt-sym { fill: #f43f5e; font-size: 14px; }
+    .prompt-tilde { fill: #a1a1aa; font-size: 14px; }
+    .prompt-cmd { fill: #ffffff; font-size: 14px; font-weight: 700; }
+    .lbl { fill: #f43f5e; font-size: 13px; font-weight: 700; }
+    .val { fill: #f4f4f5; font-size: 13px; }
+    .val-dim { fill: #71717a; }
+  </style>
+
+  <!-- Dış Pencere Çerçevesi -->
+  <rect x="1" y="1" width="798" height="658" rx="16" fill="url(#bg-grad-red)" stroke="#271115" stroke-width="1.5"/>
+  <rect x="1" y="1" width="798" height="658" rx="16" fill="url(#scanlines-red)"/>
+
+  <!-- macOS Üst Barı -->
+  <line x1="1" y1="46" x2="799" y2="46" stroke="#271115" stroke-width="1"/>
+  <circle cx="30" cy="24" r="6" fill="#ff5f56" />
+  <circle cx="50" cy="24" r="6" fill="#ffbd2e" />
+  <circle cx="70" cy="24" r="6" fill="#27c93f" />
+
+  <!-- Üst Başlıklar -->
+  <text x="400" y="28" text-anchor="middle" class="mono term-title">root@croxln: ~</text>
+  <text x="765" y="28" text-anchor="end" class="mono term-title">github.com/croxln</text>
+
+  <!-- 1. KOMUT: neofetch -->
+  <text x="50" y="95" class="mono prompt-user">root@croxln</text>
+  <text x="145" y="95" class="mono prompt-tilde"> ~ </text>
+  <text x="170" y="95" class="mono prompt-sym"># </text>
+  <text x="190" y="95" class="mono prompt-cmd">neofetch</text>
+
+  <!-- Avatar Kutusu -->
+  <rect x="49" y="144" width="167" height="187" rx="15" fill="none" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1.5" />
+  <image href="https://github.com/croxln.png" x="50" y="145" width="165" height="185" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar-clip)" />
+
+  <!-- Neofetch Bilgileri -->
+  <g transform="translate(245, 145)">
+    <text x="0" y="18" class="mono prompt-user" font-size="16">root@croxln</text>
+    <line x1="0" y1="28" x2="480" y2="28" stroke="#4c0519" stroke-width="1"/>
+
+    <!-- Satırlar -->
+    <text x="0" y="52" class="mono lbl">Rol</text>
+    <text x="95" y="52" class="mono val">Yüksek Performans MC Mimarı <tspan class="val-dim">•</tspan> Sistem Mühendisi</text>
+
+    <text x="0" y="77" class="mono lbl">Konum</text>
+    <text x="95" y="77" class="mono val">İstanbul, Türkiye</text>
+
+    <text x="0" y="102" class="mono lbl">Uzmanlık</text>
+    <text x="95" y="102" class="mono val">Eşzamanlı Sunucu Motorları <tspan class="val-dim">•</tspan> Savaş Sistemleri</text>
+    <text x="95" y="122" class="mono val">O(1) Spatial Index <tspan class="val-dim">•</tspan> Asenkron Paket Yönetimi</text>
+
+    <text x="0" y="147" class="mono lbl">Stack</text>
+    <text x="95" y="147" class="mono val">Java 21 LTS <tspan class="val-dim">•</tspan> PaperMC <tspan class="val-dim">•</tspan> Folia <tspan class="val-dim">•</tspan> Maven</text>
+    <text x="95" y="167" class="mono val">MySQL <tspan class="val-dim">•</tspan> SQLite <tspan class="val-dim">•</tspan> HikariCP <tspan class="val-dim">•</tspan> Linux</text>
+
+    <text x="0" y="192" class="mono lbl">Suit</text>
+    <text x="95" y="192" class="mono val">SrTowny <tspan class="val-dim">•</tspan> SrTownyFactory <tspan class="val-dim">•</tspan> SrOrder</text>
+
+    <text x="0" y="217" class="mono lbl">GitHub</text>
+    <text x="95" y="217" class="mono val" fill="#f43f5e">github.com/croxln</text>
+
+    <!-- Renk Paleti Blokları (Kırmızı/Crimson Tonları) -->
+    <g transform="translate(0, 235)">
+      <rect x="0" y="0" width="28" height="14" rx="3" fill="#2a060c" />
+      <rect x="34" y="0" width="28" height="14" rx="3" fill="#4c0519" />
+      <rect x="68" y="0" width="28" height="14" rx="3" fill="#881337" />
+      <rect x="102" y="0" width="28" height="14" rx="3" fill="#be123c" />
+      <rect x="136" y="0" width="28" height="14" rx="3" fill="#f43f5e" />
+      <rect x="170" y="0" width="28" height="14" rx="3" fill="#ffe4e6" />
+    </g>
+  </g>
+
+  <!-- 2. KOMUT: cat vizyon.txt -->
+  <g transform="translate(50, 435)">
+    <text x="0" y="0" class="mono prompt-user">root@croxln</text>
+    <text x="95" y="0" class="mono prompt-tilde"> ~ </text>
+    <text x="120" y="0" class="mono prompt-sym"># </text>
+    <text x="140" y="0" class="mono prompt-cmd">cat vizyon.txt</text>
+
+    <text x="0" y="28" class="mono val">Fikirden canlı ortama, yüksek performanslı sistemler geliştiriyorum.</text>
+    <text x="0" y="50" class="mono val">Sıfır lag, sağlam temeller ve yüksek eşzamanlı mimariler.</text>
+    <text x="0" y="72" class="mono val">Bir yapı ihtiyacı karşılamıyorsa yamamam; en doğru temeller üzerine yeniden kurarım.</text>
+  </g>
+
+  <!-- 3. KOMUT: open https://github.com/croxln -->
+  <g transform="translate(50, 565)">
+    <text x="0" y="0" class="mono prompt-user">root@croxln</text>
+    <text x="95" y="0" class="mono prompt-tilde"> ~ </text>
+    <text x="120" y="0" class="mono prompt-sym"># </text>
+    <text x="140" y="0" class="mono prompt-cmd">open https://github.com/croxln</text>
+
+    <text x="0" y="26" class="mono val-dim">→ github.com/croxln açılıyor. Yeni projeler ve sistemler için bir mesaj uzağınızdayım.</text>
+  </g>
+
+  <!-- Aktif Cursor -->
+  <g transform="translate(50, 625)">
+    <text x="0" y="0" class="mono prompt-user">root@croxln</text>
+    <text x="95" y="0" class="mono prompt-tilde"> ~ </text>
+    <text x="120" y="0" class="mono prompt-sym"># </text>
+    <rect x="142" y="-12" width="9" height="16" fill="#f43f5e" />
+  </g>
+</svg>
