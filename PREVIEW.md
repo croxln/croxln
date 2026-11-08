@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/✉%20E--posta%20↗-180709?style=for-the-badge&logoColor=white" height="38"/>
   </a>
   &nbsp;
-  <a href="https://discord.com" target="_blank">
+  <a href="https://discord.gg/RsTDaGVxxH" target="_blank">
     <img src="https://img.shields.io/badge/👾%20Discord%20↗-180709?style=for-the-badge&logo=discord&logoColor=white" height="38"/>
   </a>
 

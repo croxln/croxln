@@ -1,21 +1,26 @@
-```text
-       /\                                               croxln ──────────────────────────────────────
-      /  \          /\                                  . Name: ........ -Serhat
-     / /\ \        /  \                                 . Role: ........ High-Performance MC Architect
-    / /  \ \      / /\ \                                . Focus: ....... Server Engines & Warfare Systems
-   / /    \ \    / /  \ \                               . Environment: . Java 21 LTS, PaperMC, Leaf
-  / /  /\  \ \  / /    \ \                              . Build Tool: .. Apache Maven, Gradle
- / /  /  \  \ \/ /  /\  \ \                             ─ Architecture & Core Stack ─────────────────
-/ /  /    \  \  /  /  \  \ \                            . Storage: ..... SQLite, MySQL, HikariCP Pool
-\ \  \    /  /  \  \  /  / /                            . Spatial: ..... O(1) Chunk Index, Async Tasks
- \ \  \  /  / /\ \  \/  / /                             . Protocols: ... PDC, NBT, Packet Injection
-  \ \  \/  / /  \ \    / /                              . UI/UX: ....... Adventure MiniMessage, GUIs
-   \ \    / /    \ \  / /                               ─ SrProjects Suite (Closed-Source Showcase) ─
-    \ \  / /      \ \/ /                                . SrFactory: ... RoK Factories & KotH Warfare
-     \ \/ /        \  /                                 . SrTowny: ..... Core Towny & Siege Engine Fork
-      \  /          \/                                  . SrOrder: ..... Multi-Currency Order & Escrow
-       \/                                               . Status: ...... 🟢 Active Production Core
-```
+<div align="center">
+
+  <!-- Siber Kızıl / Crimson Terminal Kartı -->
+  <img src="./terminal-red.svg" alt="Serhat Görgeç (croxln) Terminal Kartı" width="800" />
+
+  <br/><br/>
+
+  <!-- Tıklanabilir Butonlar -->
+  <a href="https://github.com/croxln" target="_blank">
+    <img src="https://img.shields.io/badge/🌐%20GitHub%20↗-E11D48?style=for-the-badge&logo=github&logoColor=white" height="38"/>
+  </a>
+  &nbsp;
+  <a href="mailto:141605063+croxln@users.noreply.github.com">
+    <img src="https://img.shields.io/badge/✉%20E--posta%20↗-180709?style=for-the-badge&logoColor=white" height="38"/>
+  </a>
+  &nbsp;
+  <a href="https://discord.gg/RsTDaGVxxH" target="_blank">
+    <img src="https://img.shields.io/badge/👾%20Discord%20↗-180709?style=for-the-badge&logo=discord&logoColor=white" height="38"/>
+  </a>
+
+</div>
+
+<br>
 
 <div align="center">
 
@@ -73,5 +78,5 @@
 ---
 
 <div align="center">
-<sub>Engineered with precision by <b>-Serhat (croxln)</b> • Closed-Source Core Suite • Powered by Java 21 LTS</sub>
+<sub>Engineered with precision by <b>Serhat Görgeç (croxln)</b> • Closed-Source Core Suite • Powered by Java 21 LTS</sub>
 </div>
