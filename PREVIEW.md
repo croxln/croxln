@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Siber Kızıl / Crimson Terminal Kartı -->
-  <img src="./terminal-red.svg" alt="croxln Terminal Kartı" width="800" />
+  <img src="./terminal-red.svg" alt="Serhat Görgeç (croxln) Terminal Kartı" width="800" />
 
   <br/><br/>
 
@@ -44,5 +44,5 @@
 ---
 
 <div align="center">
-<sub>Engineered with precision by <b>-Serhat (croxln)</b> • Closed-Source Core Suite • Powered by Java 25 / 21 LTS</sub>
+<sub>Engineered with precision by <b>Serhat Görgeç (croxln)</b> • Closed-Source Core Suite • Powered by Java 21 LTS</sub>
 </div>
