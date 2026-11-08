@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
   <!-- Siber Kızıl / Crimson Terminal Kartı -->
   <img src="./terminal-red.svg" alt="Serhat Görgeç (croxln) Terminal Kartı" width="800" />
@@ -29,7 +29,7 @@
 [![Java 21](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![PaperMC](https://img.shields.io/badge/PaperMC-1.21.x-1F8CEB?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
 [![Leaf](https://img.shields.io/badge/Leaf-Performance_Core-22C55E?style=for-the-badge&logo=leaf&logoColor=white)](https://github.com/Winds-Studio/Leaf)
-[![Adventure](https://img.shields.io/badge/Adventure-MiniMessage-C084FC?style=for-the-badge&logo=gameloft&logoColor=white)](https://docs.advntr.dev/)
+[![Adventure](https://img.shields.io/badge/Adventure-MiniMessage-C084FC?style=for-the-badge)](https://docs.advntr.dev/)
 [![HikariCP](https://img.shields.io/badge/HikariCP-Fast_Pool-38BDF8?style=for-the-badge&logo=cachet&logoColor=white)](https://github.com/brettwooldridge/HikariCP)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com/)
@@ -48,7 +48,7 @@
 ### 📊 Real-Time GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=croxln&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=facc15" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=croxln&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=facc15" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=croxln&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=fb923c&currStreakNum=f8fafc" width="48%" />
 </p>
 
