@@ -56,7 +56,7 @@
 
 ---
 
-### 🛡️ SrProjects Architectural Suite (Showcase)
+### 🏛️ SrProjects Architectural Suite (Showcase)
 
 > [!NOTE]
 > All core engines listed below are proprietary, enterprise-grade systems built for high-concurrency Minecraft networks. Repositories serve as public architectural documentation, changelogs, and issue trackers.
