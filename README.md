@@ -24,16 +24,8 @@
 
 <div align="center">
 
-### ⚙️ Technologies & Development Stack
-
-[![Java 21](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
-[![PaperMC](https://img.shields.io/badge/PaperMC-1.21.x-1F8CEB?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
-[![Leaf](https://img.shields.io/badge/Leaf-Performance_Core-22C55E?style=for-the-badge&logo=leaf&logoColor=white)](https://github.com/Winds-Studio/Leaf)
-[![Adventure](https://img.shields.io/badge/Adventure-MiniMessage-C084FC?style=for-the-badge&logo=markdown&logoColor=white)](https://docs.advntr.dev/)
-[![HikariCP](https://img.shields.io/badge/HikariCP-Fast_Pool-38BDF8?style=for-the-badge&logo=cachet&logoColor=white)](https://github.com/brettwooldridge/HikariCP)
-[![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org/)
+  <!-- Teknoloji Kartı / Technology Stack (Custom Dark Crimson Card) -->
+  <img src="./tech-stack.svg" alt="Technology Stack" width="800" />
 
 </div>
 
