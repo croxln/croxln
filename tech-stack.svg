@@ -1,0 +1,250 @@
+<svg width="800" height="290" viewBox="0 0 800 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Siber Kızıl / Crimson Arka Plan -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#160608"/>
+      <stop offset="45%" stop-color="#0e0405"/>
+      <stop offset="100%" stop-color="#050202"/>
+    </linearGradient>
+
+    <!-- Üst Kenar Crimson/Rose Parıltı Gradyanı -->
+    <linearGradient id="top-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#f43f5e" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#fb7185" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#9f1239" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Pill Arka Plan -->
+    <linearGradient id="pill-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#220c10"/>
+      <stop offset="100%" stop-color="#140608"/>
+    </linearGradient>
+
+    <!-- Kotlin Degrade -->
+    <linearGradient id="kotlin-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0095D5"/>
+      <stop offset="50%" stop-color="#806EE3"/>
+      <stop offset="100%" stop-color="#C757BC"/>
+    </linearGradient>
+
+    <!-- Scanline Deseni (Terminal Kartı ile Bütünlük İçin) -->
+    <pattern id="card-scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" opacity="0.32" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      fill: #ffffff;
+      letter-spacing: -0.2px;
+    }
+    .cat-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #a1a1aa;
+      letter-spacing: 1.5px;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      fill: #f4f4f5;
+    }
+    .pill-rect {
+      fill: url(#pill-bg);
+      stroke: #331116;
+      stroke-width: 1;
+      rx: 8px;
+    }
+  </style>
+
+  <!-- Dış Pencere Gövdesi -->
+  <rect x="1" y="1" width="798" height="288" rx="16" fill="url(#card-bg)" stroke="#270e13" stroke-width="1.5"/>
+  <rect x="1" y="1" width="798" height="288" rx="16" fill="url(#card-scanlines)"/>
+
+  <!-- Üst Kenar Gradyan Çizgisi -->
+  <path d="M 16 1 L 784 1" stroke="url(#top-accent)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Kart Başlığı -->
+  <text x="36" y="38" class="title">Technology Stack</text>
+
+  <!-- ==================== 1. LANGUAGES ==================== -->
+  <text x="36" y="89" class="cat-label">LANGUAGES</text>
+  <g transform="translate(160, 68)">
+    <!-- Java -->
+    <g transform="translate(0, 0)">
+      <rect width="88" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M7.7 13.6c-2.4-.1-4.7-.6-4.7-.6s1.6.4 3.7.5c2.4.1 4.9 0 6.6-.4 0 0-1.8.6-5.6.5zm-1.8-2.5c-2.8-.1-5.4-.7-5.4-.7s1.8.5 4.3.6c2.7.2 5.6.1 7.5-.4 0 0-2 .6-6.4.5zm8.9 5.3c-.8.6-2.2 1.1-4.3 1.2-3.1.2-7.2-.3-9.5-1.5 0 0 1.2.7 3.9 1 3.5.4 8.7.3 10.9-1.2 0 0-.4.3-1 .5zm-4.3-8.8c.8 1.1.2 2.2-.8 3.2 1.3-.3 2.5-.9 2.5-1.8 0-1.5-1.7-2.1-1.7-3.4 0-1.3 1.2-2.1 1.2-2.1s-1.8.8-1.8 2.3c0 1.2.6 1.8.6 1.8zm2.7-3.9c.7.9.3 1.9-.6 2.8 1.1-.3 2.1-.8 2.1-1.6 0-1.3-1.5-1.8-1.5-3 0-1.1 1.1-1.8 1.1-1.8s-1.6.7-1.6 2c0 1 .5 1.6.5 1.6z" fill="#f89820"/>
+        <path d="M12.9 14.5c.9-.7.9-1.3.9-1.3s-.2.3-.9.6c-1.3.5-3.8.7-6.2.6-2.9-.2-5.7-.8-5.7-.8s1.6.5 4.1.7c3.1.3 6.9.1 7.8-.8z" fill="#5382a1"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Java</text>
+    </g>
+
+    <!-- Kotlin -->
+    <g transform="translate(98, 0)">
+      <rect width="96" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M0 18L18 0H0V18ZM18 18L9 9L0 18H18ZM18 18L9 9L18 0V18Z" fill="url(#kotlin-grad)"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Kotlin</text>
+    </g>
+
+    <!-- JavaScript -->
+    <g transform="translate(204, 0)">
+      <rect width="120" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <rect width="18" height="18" rx="3" fill="#f7df1e"/>
+        <path d="M11.6 14.6c.7 0 1.3-.4 1.3-1.1 0-.8-.5-1-1.3-1.4l-.4-.2c-1.1-.5-1.9-.9-1.9-2.1 0-1.2.9-2 2.3-2 1 0 1.7.3 2.2.8l-.8 1c-.4-.4-.8-.6-1.4-.6-.6 0-1 .3-1 .8 0 .6.4.8 1.2 1.2l.4.2c1.3.6 2 1.1 2 2.3 0 1.4-1.1 2.2-2.6 2.2-1.3 0-2.2-.4-2.7-1.1l.9-1c.4.6 1 1 1.9 1zm-5.7.9c-1.1 0-1.8-.4-2.2-1.1l1-.8c.3.4.6.7 1.2.7.5 0 .9-.3.9-.9v-5.6h1.3v5.6c0 1.4-.8 2.1-2.2 2.1z" fill="#000000"/>
+      </g>
+      <text x="36" y="22" class="pill-text">JavaScript</text>
+    </g>
+  </g>
+
+  <!-- ==================== 2. DATA ==================== -->
+  <text x="36" y="141" class="cat-label">DATA</text>
+  <g transform="translate(160, 120)">
+    <!-- MySQL -->
+    <g transform="translate(0, 0)">
+      <rect width="96" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M17.4 12.3c-.6-.6-1.5-.7-2.3-.5-.4-.6-.9-1.2-1.5-1.6-.2-.1-.5-.1-.7.1-.1.2 0 .5.2.7.5.4.9.8 1.2 1.3-.7.1-1.4.3-1.9.8-.3.3-.6.6-.9 1-.5.7-1 1.5-1.6 2.2-.2.2-.4.4-.6.6-.4.4-.9.6-1.4.6-.9.1-1.8-.2-2.4-.7-.4-.4-.7-.8-1-1.3-.1-.2-.3-.3-.6-.3-.2 0-.4.1-.5.3-.2.3-.3.7-.4 1-.1.5.1 1 .5 1.3.8.7 1.8 1 2.9.9.8-.1 1.5-.4 2.1-.9.3-.3.6-.6.9-.9.6-.7 1.1-1.4 1.7-2.1.3-.3.5-.6.8-.9.4-.3.9-.5 1.4-.6.2.3.4.7.7 1 .2.2.4.3.7.3.3 0 .6-.2.7-.4.5-.7.8-1.5.9-2.3z" fill="#00758F"/>
+        <path d="M15.1 11.8c.8-.2 1.7-.1 2.3.5-.1.8-.4 1.6-.9 2.3-.1.2-.4.4-.7.4-.3 0-.5-.1-.7-.3-.3-.3-.5-.7-.7-1-.5.1-1 .3-1.4.6-.3.3-.5.6-.8.9-.6.7-1.1 1.4-1.7 2.1-.3.3-.6.6-.9.9-.6.5-1.3.8-2.1.9-1.1.1-2.1-.2-2.9-.9-.4-.3-.6-.8-.5-1.3.1-.3.2-.7.4-1 .1-.2.3-.3.5-.3.3 0 .5.1.6.3.3.5.6.9 1 1.3.6.5 1.5.8 2.4.7.5 0 1-.2 1.4-.6.2-.2.4-.4.6-.6.6-.7 1.1-1.5 1.6-2.2.3-.4.6-.7.9-1 .5-.5 1.2-.7 1.9-.8-.3-.5-.7-.9-1.2-1.3-.2-.2-.3-.5-.2-.7.2-.2.5-.2.7-.1.6.4 1.1 1 1.5 1.6z" fill="#F29111"/>
+      </g>
+      <text x="36" y="22" class="pill-text">MySQL</text>
+    </g>
+
+    <!-- SQLite -->
+    <g transform="translate(106, 0)">
+      <rect width="96" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M16 2.5C16 1.1 12.4 0 8 0S0 1.1 0 2.5v13C0 16.9 3.6 18 8 18s8-1.1 8-2.5v-13z" fill="#003B57"/>
+        <ellipse cx="8" cy="2.5" rx="8" ry="2.5" fill="#00ADEF"/>
+        <path d="M16 7c0 1.4-3.6 2.5-8 2.5S0 8.4 0 7v2.5C0 10.9 3.6 12 8 12s8-1.1 8-2.5V7z" fill="#0080B0"/>
+      </g>
+      <text x="36" y="22" class="pill-text">SQLite</text>
+    </g>
+
+    <!-- HikariCP -->
+    <g transform="translate(212, 0)">
+      <rect width="108" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M10 1L2 10.5H8.5L7 17L16 7.5H9.5L11 1H10Z" fill="#38bdf8"/>
+      </g>
+      <text x="36" y="22" class="pill-text">HikariCP</text>
+    </g>
+  </g>
+
+  <!-- ==================== 3. INFRA ==================== -->
+  <text x="36" y="193" class="cat-label">INFRA</text>
+  <g transform="translate(160, 172)">
+    <!-- Linux -->
+    <g transform="translate(0, 0)">
+      <rect width="90" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M8.8 0C6.6 0 5 1.6 5 3.8v3.2c-.9.7-1.5 1.8-1.5 3 0 .7.2 1.4.5 1.9-.9.7-1.5 1.7-1.5 2.8 0 1.8 1.4 3.3 3.3 3.3.4 0 .9-.1 1.3-.2.8.1 1.6.2 2.4.2s1.6-.1 2.4-.2c.4.1.9.2 1.3.2 1.9 0 3.3-1.5 3.3-3.3 0-1.1-.6-2.1-1.5-2.8.3-.5.5-1.2.5-1.9 0-1.2-.6-2.3-1.5-3V3.8C14 1.6 12.4 0 10.2 0H8.8z" fill="#FCC624"/>
+        <ellipse cx="7.5" cy="5" rx="1" ry="1.5" fill="#000000"/>
+        <ellipse cx="11.5" cy="5" rx="1" ry="1.5" fill="#000000"/>
+        <path d="M8 8.5h3l-1.5 2.5L8 8.5z" fill="#E69500"/>
+        <ellipse cx="9.5" cy="12.5" rx="3.5" ry="4" fill="#FFFFFF"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Linux</text>
+    </g>
+
+    <!-- Gradle -->
+    <g transform="translate(100, 0)">
+      <rect width="98" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M17.5 7.4c-.4-.5-1.1-.7-1.7-.5l-2.1.8C12.5 5.8 10.6 4.6 8.5 4.5 4.2 4.3.6 7.6.4 11.9c-.2 4.2 3.1 7.8 7.4 8 2.3.1 4.5-.8 6-2.4l1.3.5c.6.2 1.3 0 1.7-.5.4-.5.4-1.2 0-1.7l-1.6-1.9c.7-1.3 1-2.7 1-4.2 0-.8-.1-1.5-.3-2.3h1.6z" fill="#02303A"/>
+        <path d="M14.5 8.7l-1.6.6c-.9-1.4-2.4-2.3-4.1-2.4-2.8-.1-5.1 2-5.3 4.8-.1 2.8 2 5.1 4.8 5.3 1.5.1 3-.5 4-1.6l1.2.5c.3.1.7 0 .9-.3.2-.3.2-.7 0-.9l-1.2-1.5c.4-.9.6-1.8.6-2.8 0-.6-.1-1.1-.2-1.7z" fill="#05899E"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Gradle</text>
+    </g>
+
+    <!-- Maven -->
+    <g transform="translate(208, 0)">
+      <rect width="94" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M16.5 1.5c-4.8 1.2-8.5 4.8-10.2 9.5l2.6 1.2c1.4-3.8 4.4-6.8 8.2-8.1L16.5 1.5z" fill="#C71A36"/>
+        <path d="M1.5 16.5c1.8-4.5 5.5-7.8 10-9.2L9.2 4.6C4.2 6.2.2 10.1 0 15.3l1.5 1.2z" fill="#E6522C"/>
+        <path d="M8.5 12.5c-.8.8-1.5 1.7-2.1 2.7l1.5 1.3c.5-.8 1.1-1.5 1.7-2.2l-1.1-1.8z" fill="#2980B9"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Maven</text>
+    </g>
+
+    <!-- Git -->
+    <g transform="translate(312, 0)">
+      <rect width="78" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M17.5 8.4l-7.9-7.9c-.6-.6-1.7-.6-2.3 0L5.7 2.1l2.9 2.9c.7-.2 1.5-.1 2.1.5.6.6.7 1.4.5 2.1l2.8 2.8c.7-.2 1.5-.1 2.1.5.9.9.9 2.3 0 3.2-.9.9-2.3.9-3.2 0-.7-.7-.8-1.7-.5-2.5L9.6 7.8v5.1c.2.2.3.5.3.8 0 1.2-1 2.2-2.2 2.2-1.2 0-2.2-1-2.2-2.2 0-1 .7-1.9 1.7-2.1V6.3c-1-.3-1.7-1.1-1.7-2.1 0-.3.1-.7.3-1L.5 8.4c-.6.6-.6 1.7 0 2.3l7.9 7.9c.6.6 1.7.6 2.3 0l6.8-6.8c.6-.7.6-1.7 0-2.4z" fill="#F05032"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Git</text>
+    </g>
+
+    <!-- Actions -->
+    <g transform="translate(400, 0)">
+      <rect width="104" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M7 3a4 4 0 0 0-4 4c0 1.7 1 3.1 2.5 3.7v3.6c-1.5.6-2.5 2-2.5 3.7a4 4 0 0 0 8 0c0-1.7-1-3.1-2.5-3.7V10.7C10 10.1 11 8.7 11 7a4 4 0 0 0-4-4zm8 5a3 3 0 0 0-3 3c0 1.2.7 2.3 1.8 2.8v2.4c-1.1.5-1.8 1.6-1.8 2.8a3 3 0 0 0 6 0c0-1.2-.7-2.3-1.8-2.8v-2.4c1.1-.5 1.8-1.6 1.8-2.8a3 3 0 0 0-3-3z" fill="#2088FF"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Actions</text>
+    </g>
+  </g>
+
+  <!-- ==================== 4. GAME DEV / MINECRAFT ==================== -->
+  <text x="36" y="245" class="cat-label">GAME DEV</text>
+  <g transform="translate(160, 224)">
+    <!-- PaperMC -->
+    <g transform="translate(0, 0)">
+      <rect width="108" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M9 1L1 5V13L9 17L17 13V5L9 1Z" fill="#1F8CEB" opacity="0.3"/>
+        <path d="M9 1L17 5L9 9L1 5L9 1Z" fill="#58A6FF"/>
+        <path d="M1 5L9 9V17L1 13V5Z" fill="#1F8CEB"/>
+        <path d="M17 5L9 9V17L17 13V5Z" fill="#1158A7"/>
+      </g>
+      <text x="36" y="22" class="pill-text">PaperMC</text>
+    </g>
+
+    <!-- Leaf -->
+    <g transform="translate(118, 0)">
+      <rect width="86" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M16.8 1.2c-8.9.4-15 5.5-15.6 13.9-.1 1.4.9 2.5 2.3 2.5 6.6 0 13.4-3.8 15.3-14.1.2-1.3-.8-2.4-2-2.3zm-3.6 11.2c-2.8 1.9-6.4 2.8-9.8 2.6.8-5.3 5.4-8.9 11.2-9.7-1.1 2.7-1.1 5.3-1.4 7.1z" fill="#22C55E"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Leaf</text>
+    </g>
+
+    <!-- Adventure -->
+    <g transform="translate(214, 0)">
+      <rect width="116" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <path d="M9 1L11.2 6.8L17 9L11.2 11.2L9 17L6.8 11.2L1 9L6.8 6.8L9 1Z" fill="#C084FC"/>
+        <circle cx="14" cy="4" r="1.5" fill="#E879F9"/>
+      </g>
+      <text x="36" y="22" class="pill-text">Adventure</text>
+    </g>
+
+    <!-- PDC & NBT -->
+    <g transform="translate(340, 0)">
+      <rect width="120" height="34" class="pill-rect"/>
+      <g transform="translate(11, 8)">
+        <rect x="2" y="2" width="14" height="14" rx="3" fill="#3B82F6" opacity="0.2"/>
+        <rect x="2" y="2" width="14" height="14" rx="3" stroke="#60A5FA" stroke-width="1.5"/>
+        <rect x="6" y="6" width="6" height="6" rx="1" fill="#93C5FD"/>
+        <line x1="5" y1="0" x2="5" y2="2" stroke="#60A5FA" stroke-width="1.2"/>
+        <line x1="9" y1="0" x2="9" y2="2" stroke="#60A5FA" stroke-width="1.2"/>
+        <line x1="13" y1="0" x2="13" y2="2" stroke="#60A5FA" stroke-width="1.2"/>
+        <line x1="5" y1="16" x2="5" y2="18" stroke="#60A5FA" stroke-width="1.2"/>
+        <line x1="9" y1="16" x2="9" y2="18" stroke="#60A5FA" stroke-width="1.2"/>
+        <line x1="13" y1="16" x2="13" y2="18" stroke="#60A5FA" stroke-width="1.2"/>
+      </g>
+      <text x="36" y="22" class="pill-text">PDC &amp; NBT</text>
+    </g>
+  </g>
+</svg>
