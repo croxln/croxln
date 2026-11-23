@@ -5,6 +5,11 @@
 
   <br/><br/>
 
+  <!-- Profil Görüntülenme (Kırmızı) -->
+  <img src="https://komarev.com/ghpvc/?username=croxln&base=120&label=PROFILE+VIEWS&color=e11d48&style=for-the-badge" alt="Profile Views" />
+
+  <br/><br/>
+
   <!-- Tıklanabilir Butonlar -->
   <a href="https://github.com/croxln" target="_blank">
     <img src="https://img.shields.io/badge/🌐%20GitHub%20↗-E11D48?style=for-the-badge&logo=github&logoColor=white" height="38"/>
@@ -33,24 +38,10 @@
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=croxln&base=120&label=PROFILE+VIEWS&color=38bdf8&style=for-the-badge" alt="Profile Views" />
-
-### 📊 Real-Time GitHub Analytics
-
 <p align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=croxln&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=facc15" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=croxln&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=fb923c&currStreakNum=f8fafc" width="48%" />
 </p>
-
-</div>
-
-<br>
-
-<div align="center">
-
-> Minecraft sunucuları için özel yazılımlar ve yenilikçi oyun modları geliştiriyorum.  
-> Yazılımın yanı sıra **muhasebe, finans, pazarlama ve proje yönetimi** alanlarında aktif iş deneyimine sahibim; **Clash Royale** tarafında profesyonel/ödüllü topluluk yöneticiliği yürütüyorum.  
-> **AthenaProject:** Minecraft sunucuları için kapalı kaynak çekirdek altyapı ve sistem mimarisi.
 
 </div>
 
