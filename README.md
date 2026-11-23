@@ -1,15 +1,14 @@
-<div align="center">
-
+<p align="center">
   <!-- Siber Kızıl / Crimson Terminal Kartı -->
   <img src="./terminal-red.svg" alt="Serhat Görgeç (croxln) Terminal Kartı" width="800" />
+</p>
 
-  <br>
-
+<p align="center">
   <!-- Profil Görüntülenme (Kırmızı) -->
   <img src="https://komarev.com/ghpvc/?username=croxln&base=120&label=PROFILE+VIEWS&color=e11d48&style=for-the-badge" alt="Profile Views" />
+</p>
 
-  <br>
-
+<p align="center">
   <!-- Tıklanabilir Butonlar -->
   <a href="https://github.com/croxln" target="_blank">
     <img src="https://img.shields.io/badge/🌐%20GitHub%20↗-E11D48?style=for-the-badge&logo=github&logoColor=white" height="38"/>
@@ -22,17 +21,12 @@
   <a href="https://discord.gg/RsTDaGVxxH" target="_blank">
     <img src="https://img.shields.io/badge/👾%20Discord%20↗-180709?style=for-the-badge&logo=discord&logoColor=white" height="38"/>
   </a>
+</p>
 
-</div>
-
-<br>
-
-<div align="center">
-
+<p align="center">
   <!-- Teknoloji Kartı / Technology Stack (Custom Dark Crimson Card) -->
   <img src="./tech-stack.svg" alt="Technology Stack" width="800" />
-
-</div>
+</p>
 
 <br>
 
