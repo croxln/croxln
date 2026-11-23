@@ -70,7 +70,7 @@
     <text x="95" y="91" class="mono val">Server Engines <tspan class="val-dim">&amp;</tspan> Warfare Systems</text>
 
     <text x="0" y="113" class="mono lbl">Ortam</text>
-    <text x="95" y="113" class="mono val">Java 21 LTS <tspan class="val-dim">•</tspan> PaperMC <tspan class="val-dim">•</tspan> Leaf</text>
+    <text x="95" y="113" class="mono val">Java 21 LTS <tspan class="val-dim">•</tspan> PaperMC <tspan class="val-dim">•</tspan> Folia</text>
 
     <text x="0" y="135" class="mono lbl">Build</text>
     <text x="95" y="135" class="mono val">Apache Maven <tspan class="val-dim">•</tspan> Gradle</text>
@@ -82,7 +82,7 @@
     <text x="95" y="179" class="mono val">Adventure MiniMessage <tspan class="val-dim">•</tspan> Custom GUIs</text>
 
     <text x="0" y="201" class="mono lbl">Suit</text>
-    <text x="95" y="201" class="mono val">SrTowny <tspan class="val-dim">•</tspan> SrTownyFactory <tspan class="val-dim">•</tspan> SrOrder</text>
+    <text x="95" y="201" class="mono val">SrTowny <tspan class="val-dim">•</tspan> SrTownyFactory <tspan class="val-dim">•</tspan> SrOrder <tspan class="val-dim">•</tspan> Athena</text>
 
     <!-- Renk Paleti Blokları -->
     <g transform="translate(0, 218)">
@@ -102,9 +102,10 @@
     <text x="120" y="0" class="mono prompt-sym"># </text>
     <text x="140" y="0" class="mono prompt-cmd">cat architecture.txt</text>
 
-    <text x="0" y="28" class="mono val">Yüksek eşzamanlı Minecraft ağları için kurumsal sunucu motorları ve savaş sistemleri.</text>
-    <text x="0" y="50" class="mono val">Thread-safe mekanikler, O(1) spatial indexing ve asenkron paket enjeksiyonu.</text>
-    <text x="0" y="72" class="mono val">SrProjects: Kapalı kaynak mimari vitrini ve yüksek ölçekli üretim çekirdeği.</text>
+    <text x="0" y="28" class="mono val">Minecraft sunucuları için performans odaklı özel yazılımlar ve oyun modları.</text>
+    <text x="0" y="50" class="mono val">Thread-safe mimari, O(1) spatial indexing ve asenkron paket mimarisi.</text>
+    <text x="0" y="72" class="mono val">Muhasebe, pazarlama ve proje yönetimi • Clash Royale topluluk yönetimi.</text>
+    <text x="0" y="94" class="mono val">AthenaProject: Sunucu ağları için kapalı kaynak çekirdek altyapı motoru.</text>
   </g>
 
   <!-- 3. KOMUT: open https://github.com/croxln -->
