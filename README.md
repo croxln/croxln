@@ -3,9 +3,11 @@
   <!-- Siber Kızıl / Crimson Terminal Kartı -->
   <img src="./terminal-red.svg" alt="Serhat Görgeç (croxln) Terminal Kartı" width="800" />
   <br/>
+  
   <!-- Profil Görüntülenme (Kırmızı) -->
   <img src="https://komarev.com/ghpvc/?username=croxln&base=120&label=PROFILE+VIEWS&color=e11d48&style=for-the-badge" alt="Profile Views" />
   <br/>
+  
   <!-- Tıklanabilir Butonlar -->
   <a href="https://github.com/croxln" target="_blank">
     <img src="https://img.shields.io/badge/🌐%20GitHub%20↗-E11D48?style=for-the-badge&logo=github&logoColor=white" height="38"/>
